@@ -1,16 +1,18 @@
-
 html {
-		height: 100%;
+	height: 100%;
 }
-
 body {
-	margin: 0; /* Removes margins around layout sections so they can be full width */
-	background:  #68525D;
-    background: -webkit-linear-gradient(#1F0E13, #68525D, #1F0E13); /* For Safari */
-    background: -o-linear-gradient(#1F0E13, #68525D, #1F0E13); /* For Opera */
-    background: -moz-linear-gradient(#1F0E13, #68525D, #1F0E13); /* For Firefox */
-    background: linear-gradient(#1F0E13, #68525D, #1F0E13); 
-    font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	/* Removes margins around layout sections so they can be full width */
+	background: #68525D;
+	background: -webkit-linear-gradient(#1F0E13, #68525D, #1F0E13);
+	/* For Safari */
+	background: -o-linear-gradient(#1F0E13, #68525D, #1F0E13);
+	/* For Opera */
+	background: -moz-linear-gradient(#1F0E13, #68525D, #1F0E13);
+	/* For Firefox */
+	background: linear-gradient(#1F0E13, #68525D, #1F0E13);
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Top Header Section */
@@ -21,11 +23,9 @@ body {
 	padding: 10px;
 	color: #000;
 }
-
 #name {
 	float: left;
 }
-
 #tagline {
 	float: right;
 	margin-right: 60px;
@@ -33,99 +33,94 @@ body {
 
 /* Intro Section */
 
-
 #portrait {
-	width: 42%;  /* Makes it responsive for all screen sizes */
-    right: 140px;
-    position: relative;
-    margin-top: 25px;
-    border: 6px solid #C0C0C0;
+	width: 42%; /* Makes it responsive for all screen sizes */
+	right: 140px;
+	position: relative;
+	margin-top: 25px;
+	border: 6px solid #C0C0C0;
 }
-
-
 #about {
-	width: 44%; 
-    height: auto;
-    position: absolute;  /* Prevents the div from moving up and down on different screen resolutions */
-    margin-top: 23px;
-    right: 90px;
-    display: inline-block;
-    background-color: #F7F7F7;
-    font-size: 20px;
+	width: 44%;
+	height: auto;
+	position: absolute; /* Prevents the div from moving up and down on different screen resolutions */
+	margin-top: 23px;
+	right: 90px;
+	display: inline-block;
+	background-color: #F7F7F7;
+	font-size: 20px;
 }
-
 #about p {
 	padding: 10px;
 }
-
-
 a {
 	color: #000;
 }
 
+
 /*  --- Applies to all sections ---*/
 
 .header-box {
-  top: 0;  /*To stay at the top with no gap */
-  width: 100%;
-  height: 40px;
-  right: 1px;
-  padding-top: 10px;
-  color: #fff;
-  font-weight: bold;
-  text-align: left;
-  background:  #B0B0B4;
-  background: -webkit-linear-gradient(#AFAFB3, #898795, #B0B0B4); /* For Safari */
-  background: -o-linear-gradient(#AFAFB3, #898795, #B0B0B4); /* For Opera */
-  background: -moz-linear-gradient(#AFAFB3, #898795, #B0B0B4); /* For Firefox */
-  background: linear-gradient(#AFAFB3, #898795, #B0B0B4); 
-
+	top: 0;
+	/*To stay at the top with no gap */
+	width: 100%;
+	height: 40px;
+	right: 1px;
+	padding-top: 10px;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	background: #B0B0B4;
+	background: -webkit-linear-gradient(#AFAFB3, #898795, #B0B0B4);
+	/* For Safari */
+	background: -o-linear-gradient(#AFAFB3, #898795, #B0B0B4);
+	/* For Opera */
+	background: -moz-linear-gradient(#AFAFB3, #898795, #B0B0B4);
+	/* For Firefox */
+	background: linear-gradient(#AFAFB3, #898795, #B0B0B4);
 }
-
-
 .top-paragraph {
 	margin-top: 40px;
 }
 
 /* ----Portfolio Section ---*/
 
-
 #portfolio-wrapper {
 	display: table;
-    width: 100%; 
-    table-layout: fixed; 
-    border-spacing: 10px; 
-    margin-top: 30px;
+	width: 100%;
+	table-layout: fixed;
+	border-spacing: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
-
 .portfolio-blocks {
 	display: table-cell;
 	width: 289px;
 	height: auto;
-	background:  #DDCFDC;
-  background: -webkit-linear-gradient(#FFF, #DDCFDC); /* For Safari */
-  background: -o-linear-gradient(#FFF, #DDCFDC); /* For Opera */
-  background: -moz-linear-gradient(#FFF, #DDCFDC); /* For Firefox */
-  background: linear-gradient(#FFF, #DDCFDC); 
-  text-align: center;
-  padding-bottom: 30px;
+	background: #DDCFDC;
+	background: -webkit-linear-gradient(#FFF, #DDCFDC);
+	/* For Safari */
+	background: -o-linear-gradient(#FFF, #DDCFDC);
+	/* For Opera */
+	background: -moz-linear-gradient(#FFF, #DDCFDC);
+	/* For Firefox */
+	background: linear-gradient(#FFF, #DDCFDC);
+	text-align: center;
+	padding-bottom: 30px;
 }
 
-.tech-logos li {
-display: inline-block;
-margin-right: 10px;
+.portfolio-blocks img {
+	width: 100%;
 }
 
 .tech-logos li {
 	display: inline-block;
 	margin-right: 10px;
 }
-
 .tech-logos img {
 	width: 40px;
 	height: 40px;
 }
-
 .pbtn {
 	background-color: #407D61;
 	color: #fff;
@@ -136,9 +131,24 @@ margin-right: 10px;
 	padding: 10px;
 }
 
+/*---Footer Section --- */
 
-
-
-
-
-
+footer {
+	background-color: #fff;
+	height: 105px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 2px;
+	padding-bottom: 30px;
+}
+.social li {
+	display: inline-block;
+	margin-right: 10px;
+	font-style: italic;
+}
+.social img {
+	width: 35px;
+	height: 35px;
+	padding-right: 5px;
+}
