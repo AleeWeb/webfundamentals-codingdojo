@@ -10,7 +10,7 @@ body {
     background: -o-linear-gradient(#1F0E13, #68525D, #1F0E13); /* For Opera */
     background: -moz-linear-gradient(#1F0E13, #68525D, #1F0E13); /* For Firefox */
     background: linear-gradient(#1F0E13, #68525D, #1F0E13); 
-    font-family: arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Top Header Section */
@@ -34,28 +34,79 @@ body {
 /* Intro Section */
 
 
-#intro-wrapper {
-
-
-}
-
 #portrait {
-	position: relative;
-	right: 140px;
-	margin-top: 25px;
-	border: 6px solid #C0C0C0;
+	width: 42%;
+    right: 140px;
+    position: relative;
+    margin-top: 25px;
+    border: 6px solid #C0C0C0;
 }
 
 
 #about {
-	width: 490px;
-	height: 308px;
-	float: right;
-	position: relative;
-	display: inline-block;
-	margin-top: 25px;
-	right: 90px;
-	padding: 20px;
-	background-color: #F7F7F7;
-	font-size: 20px;
+	width: 42%;
+    height: auto;
+    position: relative;
+    right: 50px;
+    display: inline-block;
+    background-color: #F7F7F7;
+    font-size: 20px;
 }
+
+#about p {
+	padding: 5px;
+}
+
+
+a {
+	color: #000;
+}
+
+/*  --- Applies to all sections ---*/
+
+.header-box {
+  top: 0;  /*To stay at the top with no gap */
+  width: 100%;
+  height: 40px;
+  right: 1px;
+  padding-top: 10px;
+  padding-left: 1px;
+  color: #fff;
+  font-weight: bold;
+  background:  #B0B0B4;
+  background: -webkit-linear-gradient(#AFAFB3, #898795, #B0B0B4); /* For Safari */
+  background: -o-linear-gradient(#AFAFB3, #898795, #B0B0B4); /* For Opera */
+  background: -moz-linear-gradient(#AFAFB3, #898795, #B0B0B4); /* For Firefox */
+  background: linear-gradient(#AFAFB3, #898795, #B0B0B4); 
+
+}
+
+
+.top-paragraph {
+	margin-top: 40px;
+}
+
+/* ----Portfolio Section ---*/
+
+
+#portfolio-wrapper {
+	display: table;
+    width: 100%; 
+    table-layout: fixed; 
+    border-spacing: 10px; 
+    margin-bottom: 50px;
+}
+
+.portfolio-blocks {
+	display: table-cell;
+	width: 289px;
+	height: 552px;
+	background-color: #fff;
+}
+
+
+
+
+
+
+
