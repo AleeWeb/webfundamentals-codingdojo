@@ -1,4 +1,61 @@
 
+html {
+		height: 100%;
+}
+
 body {
-	
+	margin: 0; /* Removes margins around layout sections so they can be full width */
+	background:  #68525D;
+    background: -webkit-linear-gradient(#1F0E13, #68525D, #1F0E13); /* For Safari */
+    background: -o-linear-gradient(#1F0E13, #68525D, #1F0E13); /* For Opera */
+    background: -moz-linear-gradient(#1F0E13, #68525D, #1F0E13); /* For Firefox */
+    background: linear-gradient(#1F0E13, #68525D, #1F0E13); 
+    font-family: arial, sans-serif;
+}
+
+/* Top Header Section */
+
+#main-title {
+	height: 62px;
+	background-color: #F7F7F7;
+	padding: 10px;
+	color: #000;
+}
+
+#name {
+	float: left;
+}
+
+#tagline {
+	float: right;
+	margin-right: 60px;
+}
+
+/* Intro Section */
+
+
+#intro-wrapper {
+
+
+}
+
+#portrait {
+	position: relative;
+	right: 140px;
+	margin-top: 25px;
+	border: 6px solid #C0C0C0;
+}
+
+
+#about {
+	width: 490px;
+	height: 308px;
+	float: right;
+	position: relative;
+	display: inline-block;
+	margin-top: 25px;
+	right: 90px;
+	padding: 20px;
+	background-color: #F7F7F7;
+	font-size: 20px;
 }
