@@ -71,9 +71,9 @@ a {
   height: 40px;
   right: 1px;
   padding-top: 10px;
-  padding-left: 1px;
   color: #fff;
   font-weight: bold;
+  text-align: left;
   background:  #B0B0B4;
   background: -webkit-linear-gradient(#AFAFB3, #898795, #B0B0B4); /* For Safari */
   background: -o-linear-gradient(#AFAFB3, #898795, #B0B0B4); /* For Opera */
@@ -107,6 +107,8 @@ a {
   background: -o-linear-gradient(#FFF, #DDCFDC); /* For Opera */
   background: -moz-linear-gradient(#FFF, #DDCFDC); /* For Firefox */
   background: linear-gradient(#FFF, #DDCFDC); 
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .tech-logos li {
