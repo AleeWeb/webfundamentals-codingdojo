@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Random Chance</title>
+
+</head>
+<body>
+	<script>
+	function slotPlay(quartersNum) {
+	while (quartersNum > 0) {
+		var winnerMove = Math.random();
+		console.log(winnerMove); //Prints out random decimals 
+		console.log(quartersNum--);
+		if (quartersNum === 0) {
+			return 0;
+		}
+		if (winnerMove < .01) {
+			(Math.floor(Math.random() * 50) + 50);
+			console.log(quartersNum + Math.floor(Math.random() * 50) + 50);
+		}
+	}
+}
+slotPlay(50);
+	</script>
+</body>
+</html>
